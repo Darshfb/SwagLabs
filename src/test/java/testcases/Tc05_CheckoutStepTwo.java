@@ -9,7 +9,7 @@ import static testcases.Tc2_home.totalPrice;
 
 public class Tc05_CheckoutStepTwo extends TestBase
 {
-    @Test(priority = 6, dependsOnGroups = {"checkoutStepOne"})
+    @Test(priority = 10, dependsOnGroups = {"checkoutStepOne"})
     public void submitOrder()
     {
         System.out.println("HelloWorld" + totalPrice);
