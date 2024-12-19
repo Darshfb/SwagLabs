@@ -41,7 +41,7 @@
 <!--            </class>-->
 <!--        </classes>-->
 <!--    </test>-->
-    <test verbose="2" preserve-order="true" name="E2E scenario, place order to checkout then return back to remove item from cart">
+    <test verbose="2" preserve-order="false" name="E2E scenario, place order to checkout then return back to remove item from cart">
         <classes>
             <class name="testcases.Tc1_login">
                 <methods>
