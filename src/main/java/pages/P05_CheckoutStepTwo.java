@@ -25,6 +25,7 @@ public class P05_CheckoutStepTwo
     public Boolean checkTotalEqualToSum(double expectedPrice) {
         String subtotal = driver.findElement(subTotal).getText();
         double specificItemPrice = Double.parseDouble(subtotal.substring(13));
+        System.out.println("hellowworld2 " + specificItemPrice);
         return (specificItemPrice == expectedPrice);
     }
 }

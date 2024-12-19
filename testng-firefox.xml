@@ -87,36 +87,3 @@
         </classes>
     </test>
 </suite>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!--            <class name="testcases.Tc3_Cart">-->
-        <!--                <methods>-->
-        <!--                    <include name="enterCheckout"/>-->
-        <!--                </methods>-->
-        <!--            </class>-->
-        <!--            <class name="testcases.Tc4_CheckoutStepOne">-->
-        <!--                <methods>-->
-        <!--                    <include name="fillCheckoutStepOne"/>-->
-        <!--                </methods>-->
-        <!--            </class>-->
-        <!--            <class name="testcases.Tc05_CheckoutStepTwo">-->
-        <!--                <methods>-->
-        <!--                    <include name="submitOrder"/>-->
-        <!--                    <exclude name="returnBackToHome"/>-->
-        <!--                </methods>-->
-        <!--            </class>-->
